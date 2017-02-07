@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale">
+    <!-- Make sure there is zooming option available on mobile -->
+
+    <title>Aloha Apparel</title>
+
+    <!-- Make as less requests to additional files as possible to enhance performance -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.css">
+</head>
+
+<body>
+    <!-- Skip link for accessibility -->
+    <a class="screen-reader-text" href="#missionstatement">Skip to content</a>
+    <nav class="navigation">
+        <div class="navigation-container">
+
+            <!-- Logo and cart icon - Make sure they're responsive to all 3 sizes -->
+            <div class="logo">
+                <img src="images/aloha-logo.svg" alt="alohalogo">
+            </div>
+            <div class="cart">
+                <img src="images/cart-icon.svg" alt="cartlogo">
+            </div>
+
+            <!-- Top menu resizes based on viewing size -->
+            <div class="menubar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li> <a href="#shop">Shop</a></li>
+                    <li><a href="#features">Featured</a></li>
+                    <li><a href="#updates">Updates</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="banner">
+        <div class="banner-container">
+            <p class="collection">New Collection</p>
+            <!-- Use text tranfer for upper case -->
+            <p class="spring"> Spring/Summer 2016</p>
+        </div>
+    </header>
+    <div class="caption">
+        <section id="missionstatement" class="missionStatement" tabindex="-1">
+            <div class="missioncontainer">
+
+                <!-- Don't use breaks <br> to seperate text. Bold text should be hardcoded -->
+                <h2>Hand-Crafted <span class="boldtext">Styles</span></h2>
+                <p class="brand-detail">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Each box would require it's own class.
+    Differentiate big boxes from the small ones.
+    The title of the boxes can all have similar CSS styles. -->
+    <div id="inventory">
+        <div class="fashioncollection">
+            <div class="bigbox">
+                <div class="bigbox1">
+                    <a class="styles" href="mens">men's</a>
+                </div>
+            </div>
+            <div class="smallbox">
+                <div class="smallbox2">
+                    <a class="styles" href="trends">trends</a>
+                </div>
+            </div>
+            <div class="smallbox">
+                <div class="smallbox3">
+                    <a class="styles" href="glasses">glasses</a>
+                </div>
+            </div>
+            <div class="smallbox">
+                <div class="smallbox4">
+                    <a class="styles" href="sales">sales</a>
+                </div>
+            </div>
+            <div class="smallbox">
+                <div class="smallbox5">
+                    <a class="styles" href="bags">bags</a>
+                </div>
+            </div>
+            <div class="bigbox">
+                <div class="bigbox2">
+                    <a class="styles" href="womens">women's</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <section id="features">
+            <div class="mostloved">
+                <h3>Most-Loved <span class="boldtext">Products</span></h3>
+            </div>
+            <!-- Arghhh it's so hard to make it work -->
+            <ul class="main-carousel">
+                <li class="item">
+                    <img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>Stretch Knit Dress</h4>
+                        <p class="itemprice">$169.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
+                    <div class="itemtext">
+                        <p class="itemname">shirts</p>
+                        <h4>Cotton Blue Shirt</h4>
+                        <p class="itemprice">$89.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>Checked Stretch Dress</h4>
+                        <p class="itemprice">$129.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
+                    <div class="itemtext">
+                        <p class="itemname">bags</p>
+                        <h4>Blue Hipster Backpack</h4>
+                        <p class="itemprice">$69.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/demin-overall-shorts.jpg" alt="demin-overall-shorts">
+                    <div class="itemtext">
+                        <p class="itemname">denim</p>
+                        <h4>Denim Overall Shorts</h4>
+                        <p class="itemprice">$89.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>pink dotted dress</h4>
+                        <p class="itemprice">$99.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/blue-silk-dress.jpg" alt="blue-silk-dress">
+                    <div class="itemtext">
+                        <p class="itemname">dresses</p>
+                        <h4>blue silk dress</h4>
+                        <p class="itemprice">$119.00</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="images/cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt">
+                    <div class="itemtext">
+                        <p class="itemname">shirts</p>
+                        <h4>cotton yellow tshirt</h4>
+                        <p class="itemprice">$39.00</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="subscription">
+        <div id="updates">
+            <div class="subscription-container">
+                <h5>Sign-up for <span class="boldtext">Updates</span></h5>
+                <p class="captiontext">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+
+                <!-- Use the form that we practcied in class. HTML is saved in the practice folder -->
+                <form action="#" class="subscribe">
+                    <input class="email" title="add email here" type="email" name="email" value placeholder="Your Email">
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <!-- Make sure the footer color matches. It's not solid black. -->
+        <div class="footer-container">
+            <div class="info">
+                <p>© 2016 Aloha Apparel Co.</p>
+                <p>Powered by HTML and CSS.</p>
+                <p class="number-email">604-604-6040. <a href="info@alohaapparel.com"> info@alohaapparel.com </a> </p>
+                <div class="location">
+                    <p>1490 W Broadway</p>
+                    <p>Vancouver, BC, Canada</p>
+                </div>
+            </div>
+            <div class="social">
+                <ul>
+                      <li> <i class="fa fa-facebook"></i> <span class="network-name">Facebook</span></li>
+                      <li> <i class="fa fa-twitter"></i> <span class="network-name">Twitter</span></li>
+                      <li> <i class="fa fa-instagram"></i> <span class="network-name">Instagram</span></li>
+                      <li> <i class="fa fa-pinterest"></i> <span class="network-name">Pinterest</span></li>
+                      <li> <i class="fa fa-google-plus"></i> <span class="network-name">Google+</span></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
