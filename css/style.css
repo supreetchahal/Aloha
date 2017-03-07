@@ -257,6 +257,7 @@ h2,h3,h5,.boldtext{
     text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
     padding-bottom: 20px;
     z-index: 1;
+    text-transform: uppercase;
 }
 
 .spring{
@@ -474,7 +475,7 @@ lable{
     display: flex;
 }
 
-.email,button{
+.email,{
     border: none;
     border-radius: 25px;
     height: 40px;
@@ -542,7 +543,7 @@ footer{
 }
 
 .social li{
-    display: block;
+    display: inline;
 }
 
 .social i{
@@ -551,6 +552,14 @@ footer{
 }
 
 i:hover{
+    color:#b64036;
+}
+
+.network-name{
+    display: none;
+}
+
+.network-name:hover {
     color:#b64036;
 }
 
@@ -776,7 +785,7 @@ i:hover{
 
     .social{
         height: 100%;
-        align-content: center;
+        text-align: left;
     }
 
     .social span{
@@ -794,6 +803,10 @@ i:hover{
 
     .social i{
        width: 20px;
+    }
+
+    .social li{
+    display: block;
     }
 
     a :hover{
@@ -903,4 +916,9 @@ i:hover{
     .social{
         padding-right: 3rem;
     }
+
+    .social li{
+    display: block;
+    }
+
 }

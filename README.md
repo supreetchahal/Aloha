@@ -1,5 +1,6 @@
-# Update: Aloha Part 2
+# Update: Aloha
 
+The Aloha Apparel website   
 The main focus of the second phase of the Aloha project was the incorporation of Flexbox and JavaScript.
 * Flexbox was extremely useful as it replaced the floats and presented the webpage with a clean and easily navigable layout.
 * JavaScript gave the webpage interactivity. The Flickity plugin provided smooth navigation through the product lineup.
